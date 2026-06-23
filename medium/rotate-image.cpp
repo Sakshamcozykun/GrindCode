@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/rotate-image/
 // Lang    : C++
 // Difficulty: Medium
-// Synced  : 2026-06-23T10:39:54.091Z
+// Synced  : 2026-06-23T10:40:02.422Z
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
