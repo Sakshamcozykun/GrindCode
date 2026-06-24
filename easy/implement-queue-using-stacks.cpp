@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/implement-queue-using-stacks/
 // Lang    : C++
 // Difficulty: Easy
-// Synced  : 2026-06-24T13:04:13.931Z
+// Synced  : 2026-06-24T13:19:55.541Z
 class MyQueue {
 public:
     
