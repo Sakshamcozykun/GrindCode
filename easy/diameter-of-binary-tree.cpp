@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/diameter-of-binary-tree/
 // Lang    : C++
 // Difficulty: Easy
-// Synced  : 2026-06-28T09:01:20.603Z
+// Synced  : 2026-06-29T18:43:02.349Z
 class Solution {
 public:
     
