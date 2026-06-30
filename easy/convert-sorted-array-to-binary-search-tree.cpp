@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 // Lang    : C++
 // Difficulty: Easy
-// Synced  : 2026-06-30T04:11:04.879Z
+// Synced  : 2026-06-30T04:11:28.165Z
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,7 +20,7 @@ public:
         return buildBST(nums, 0 , nums.size() - 1);
     }
 
-    TreeNode* buildBST(const vector<int.& nums, int left, int right){
+    TreeNode* buildBST(const vector<int>& nums, int left, int right){
         if(left > right){
             return nullptr;
         }
