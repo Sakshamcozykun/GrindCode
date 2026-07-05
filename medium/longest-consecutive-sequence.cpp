@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/longest-consecutive-sequence/
 // Lang    : C++
 // Difficulty: Medium
-// Synced  : 2026-07-05T10:09:08.015Z
+// Synced  : 2026-07-05T10:10:52.410Z
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
