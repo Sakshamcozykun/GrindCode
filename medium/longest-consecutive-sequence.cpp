@@ -2,18 +2,32 @@
 // Slug    : https://leetcode.com/problems/longest-consecutive-sequence/
 // Lang    : C++
 // Difficulty: Medium
-// Synced  : 2026-07-05T10:05:40.798Z
+// Synced  : 2026-07-05T10:09:08.015Z
 class Solution {
 public:
-int count = 0;
     int longestConsecutive(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        int n = nums.size();
-        for(int i = 0; i<n-1; i++){
-        if(nums[i]+1 == nums[i+1]){
 
-             count = count+1;} 
-        };
-        return count+1;
+        if (nums.empty())
+            return 0;
+
+        sort(nums.begin(), nums.end());
+
+        int longest = 1;
+        int current = 1;
+
+        for (int i = 1; i < nums.size(); i++) {
+
+            if (nums[i] == nums[i - 1])
+                continue;           // Ignore duplicates
+
+            if (nums[i] == nums[i - 1] + 1)
+                current++;          // Extend current sequence
+            else
+                current = 1;        // Start a new sequence
+
+            longest = max(longest, current);
+        }
+
+        return longest;
     }
 };
