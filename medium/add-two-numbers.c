@@ -4,7 +4,7 @@
 // Difficulty: Medium
 // Runtime : 2 ms
 // Memory  : 77 MB
-// Synced  : 2026-07-08T05:25:25.601Z
+// Synced  : 2026-07-08T05:31:43.714Z
 /**
  * Definition for singly-linked list.
  * struct ListNode {
