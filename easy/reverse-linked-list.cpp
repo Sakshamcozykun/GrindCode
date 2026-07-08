@@ -2,7 +2,7 @@
 // Slug    : https://leetcode.com/problems/reverse-linked-list/
 // Lang    : C++
 // Difficulty: Easy
-// Synced  : 2026-07-08T04:06:55.070Z
+// Synced  : 2026-07-08T04:25:22.646Z
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
