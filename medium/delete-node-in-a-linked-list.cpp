@@ -2,13 +2,20 @@
 // Slug    : https://leetcode.com/problems/delete-node-in-a-linked-list/
 // Lang    : C++
 // Difficulty: Medium
-// Synced  : 2026-07-08T05:38:12.935Z
+// Runtime : 10 ms
+// Memory  : 12.2 MB
+// Synced  : 2026-07-11T16:36:42.765Z
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 class Solution {
 public:
     void deleteNode(ListNode* node) {
-        node->val = node->next->val;
-        ListNode* temp = node->next;
-        node->next = temp->next;
-        delete temp;
+        
     }
 };
